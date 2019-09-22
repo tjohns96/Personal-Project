@@ -1,5 +1,6 @@
 <TextView
-    android:text="According to all known laws of aviation, there is no way a beeshould be able to fly. Its wings are too small to getits fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible."
+    android:text="Excited for the gift you'll surprise me with."
     android:background="@android:color/darker_gray"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content" 
+    android:textSize = "56sp"/>
