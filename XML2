@@ -1,36 +1,31 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="300dp"
-    android:layout_height="match_parent"
-    android:background="@android:color/darker_gray">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/ocean"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+
+        android:scaleType="centerCrop" />
 
     <TextView
-        android:text="VIP List"
+        android:text="You're invited!"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#4CAF50"
-        android:textSize="24sp" />
+        android:layout_height="0dp"
+        android:textColor="@android:color/white"
+        android:textSize="54sp"
+        android:background="#009688" />
 
     <TextView
-        android:text="Kunal"
+        android:text="Bonfire at the beach"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#4CAF50"
-        android:textSize="24sp" />
-
-    <TextView
-        android:text="Kagure"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#4CAF50"
-        android:textSize="24sp" />
-
-    <TextView
-        android:text="Lyla"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="#4CAF50"
-        android:textSize="24sp" />
+        android:layout_height="0dp"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:background="#009688" />
 
 </LinearLayout>
