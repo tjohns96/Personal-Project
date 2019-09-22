@@ -1,6 +1,7 @@
 <TextView
-    android:text="Excited for the gift you'll surprise me with."
-    android:background="@android:color/darker_gray"
+    android:text="I got you a free hug. Surprise!"
+    android:textColor = "#D50000"
+    android:background="#212121"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" 
-    android:textSize = "56sp"/>
+    android:layout_height="wrap_content"
+    android:textSize="45sp" />
