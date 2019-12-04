@@ -12,14 +12,16 @@
         android:text="Happy Birthday Brendan!"
         android:textSize="30dp"
         android:textColor="#B00030"
+        android:fontFamily="sans-serif"
         android:layout_alignParentTop = "true"
-        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="From, TJ!"
         android:textSize="30dp"
+        android:fontFamily="sans-serif"
         android:textColor="#B00030"
         android:layout_alignParentBottom = "true"
         android:layout_alignParentRight="true"
